@@ -21,7 +21,7 @@
         $script:Settings =     . ./shimpsy.settings.ps1
         $script:moduleName =   $Settings.ModuleName
         $script:toolsDir =     Join-Path -path $buildRoot -childPath $Settings.toolsDir
-        Resolve-Module
+        # Resolve-Module
     }
 
 
